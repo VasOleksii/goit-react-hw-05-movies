@@ -1,0 +1,77 @@
+.img {
+  width: 270px;
+  height: 100%;
+}
+
+.imgWrap {
+  display: flex;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.descrWrap {
+  display: inline-block;
+  margin-left: 50px;
+  padding-right: 100px;
+}
+
+.btn {
+  margin-left: 50px;
+  color: #0f1652;
+  font-size: 24px;
+  border: none;
+  background-color: #fff;
+  border-radius: 7px;
+}
+
+.btn:hover {
+  color: #589ceb;
+  cursor: pointer;
+}
+
+.btnList {
+  padding: 0;
+  width: 270px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+}
+
+.castBtn {
+  padding: 9px;
+  position: relative;
+  background-color: #0f1652;
+  font-size: 16px;
+  border: none;
+  width: 130px;
+  color: #fff;
+  border-radius: 7px;
+}
+
+.castBtn:hover {
+  background-color: #589ceb;
+  cursor: pointer;
+}
+
+.reviewsBtn {
+  margin-left: 15px;
+  position: relative;
+  padding: 9px;
+  background-color: #0f1652;
+  font-size: 16px;
+  width: 130px;
+  border: none;
+  color: #fff;
+  border-radius: 7px;
+}
+
+.reviewsBtn:hover {
+  background-color: #589ceb;
+  cursor: pointer;
+}
+
+.descrTitle {
+  font-size: 20px;
+  font-weight: 600;
+}
